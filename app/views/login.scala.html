@@ -2,18 +2,14 @@
  * This file displays the login form.
 *@
 
-@()
+@(myForm: Form[model.User])
 
 <h2>Please enter your username and password.</h2>
 
-<form>
-	Username:
-	<input name="username" type="text">
-	<br><br>
-	
-	Password:&nbsp
-	<input name="password" type="text">
-	<br><br>
-	
-	<button type="button" onclick="">Log In</button>
-</form>
+@helper.form(action = routes.Application.loginPost()) {
+
+    @helper.inputText(myForm("username"))
+
+    @helper.inputPassword(myForm("password"))
+    <button type="submit">Log In</button>
+}
