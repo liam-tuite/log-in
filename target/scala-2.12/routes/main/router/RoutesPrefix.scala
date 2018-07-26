@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Liam/Desktop/Play/play-java-usernames/log-in/conf/routes
-// @DATE:Thu Jul 26 14:29:53 BST 2018
+// @SOURCE:/Users/vasilyulianko/dev/projects/log-in/conf/routes
+// @DATE:Thu Jul 26 15:49:24 IST 2018
 
 
 package router {

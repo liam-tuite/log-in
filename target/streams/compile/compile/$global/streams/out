@@ -1,13 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Liam\Desktop\Play\play-java-usernames\log-in\app\views\login.scala.html:1:1: not found: type User[0m
-[0m[[0m[31merror[0m] [0m[0m@*[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Liam\Desktop\Play\play-java-usernames\log-in\app\views\login.scala.html:5:14: not found: type User[0m
-[0m[[0m[31merror[0m] [0m[0m@(form: Form[User])[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Liam\Desktop\Play\play-java-usernames\log-in\app\views\login.scala.html:9:20: value login is not a member of object controllers.Application[0m
-[0m[[0m[31merror[0m] [0m[0m#{form@Application.login}[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Liam\Desktop\Play\play-java-usernames\log-in\app\views\login.scala.html:21:9: not found: type User[0m
-[0m[[0m[31merror[0m] [0m[0m#{/form}[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vasilyulianko/dev/projects/log-in/app/controllers/Application.java:17:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable userForm[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.Application[0m
+[0m[[0m[31merror[0m] [0m[0m		return ok(login.render(userForm));[0m

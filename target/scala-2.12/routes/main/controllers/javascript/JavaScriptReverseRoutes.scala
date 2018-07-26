@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Liam/Desktop/Play/play-java-usernames/log-in/conf/routes
-// @DATE:Thu Jul 26 14:29:53 BST 2018
+// @SOURCE:/Users/vasilyulianko/dev/projects/log-in/conf/routes
+// @DATE:Thu Jul 26 15:49:24 IST 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -31,7 +31,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:11
+  // @LINE:13
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -39,7 +39,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
+    // @LINE:13
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -58,6 +58,16 @@ package controllers.javascript {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
+  
+    // @LINE:10
+    def loginPost: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.loginPost",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
+        }
+      """
+    )
   
     // @LINE:8
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
