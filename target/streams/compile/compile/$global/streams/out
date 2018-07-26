@@ -1,4 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/vasilyulianko/dev/projects/log-in/app/controllers/Application.java:17:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable userForm[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class controllers.Application[0m
-[0m[[0m[31merror[0m] [0m[0m		return ok(login.render(userForm));[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Liam\Desktop\Play\play-java-usernames\log-in\app\controllers\Application.java:46:1: variable message might not have been initialized[0m
+[0m[[0m[31merror[0m] [0m[0m		return ok(message);	[0m

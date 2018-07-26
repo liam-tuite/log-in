@@ -30,7 +30,8 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*2.1*/("""
+Seq[Any](format.raw/*1.4*/("""
+
 """),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
 
  """),format.raw/*5.2*/("""<body>
@@ -56,11 +57,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Jul 26 15:49:24 IST 2018
-                  SOURCE: /Users/vasilyulianko/dev/projects/log-in/app/views/index.scala.html
-                  HASH: 5a5b06bedda53153a68afbac967d266b3728c32d
-                  MATRIX: 941->1|1037->4|1064->6|1095->29|1134->31|1163->34|1235->80|1249->86|1287->104|1375->162
-                  LINES: 28->1|33->2|34->3|34->3|34->3|36->5|38->7|38->7|38->7|42->11
+                  DATE: Thu Jul 26 16:36:10 BST 2018
+                  SOURCE: C:/Users/Liam/Desktop/Play/play-java-usernames/log-in/app/views/index.scala.html
+                  HASH: b59db6229a2fbe10f8193db4a1e3d07d40205546
+                  MATRIX: 941->1|1037->3|1067->8|1098->31|1137->33|1168->38|1242->86|1256->92|1294->110|1386->172
+                  LINES: 28->1|33->1|35->3|35->3|35->3|37->5|39->7|39->7|39->7|43->11
                   -- GENERATED --
               */
           

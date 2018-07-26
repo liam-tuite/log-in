@@ -32,7 +32,8 @@ object login extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*6.1*/("""
+Seq[Any](format.raw/*5.28*/("""
+
 """),format.raw/*7.1*/("""<h2>Please enter your username and password.</h2>
 
 """),_display_(/*9.2*/helper/*9.8*/.form(action = routes.Application.loginPost())/*9.54*/ {_display_(Seq[Any](format.raw/*9.56*/("""
@@ -57,11 +58,11 @@ Seq[Any](format.raw/*6.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Jul 26 16:08:28 IST 2018
-                  SOURCE: /Users/vasilyulianko/dev/projects/log-in/app/views/login.scala.html
-                  HASH: d3371bbdd34c487b361605a9a641b50bf885e81c
-                  MATRIX: 997->46|1117->73|1144->74|1221->126|1234->132|1288->178|1327->180|1360->187|1375->193|1426->223|1459->230|1474->236|1529->270|1561->275
-                  LINES: 30->5|35->6|36->7|38->9|38->9|38->9|38->9|40->11|40->11|40->11|42->13|42->13|42->13|43->14
+                  DATE: Thu Jul 26 16:58:26 BST 2018
+                  SOURCE: C:/Users/Liam/Desktop/Play/play-java-usernames/log-in/app/views/login.scala.html
+                  HASH: c3a76852cdee43d998a22c532a7b1ac6bcad47d8
+                  MATRIX: 999->50|1120->76|1150->80|1229->134|1242->140|1296->186|1335->188|1370->197|1385->203|1436->233|1471->242|1486->248|1541->282|1574->288
+                  LINES: 30->5|35->5|37->7|39->9|39->9|39->9|39->9|41->11|41->11|41->11|43->13|43->13|43->13|44->14
                   -- GENERATED --
               */
           
